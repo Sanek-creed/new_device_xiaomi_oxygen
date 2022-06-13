@@ -1,21 +1,26 @@
 [
   {
     "remote"       : "github",
-    "repository"   : "NusantaraROM-Devices/vendor_xiaomi_vince",
-    "target_path"  : "vendor/xiaomi/vince",
-    "branch"       : "12"
+    "repository"   : "Mi-Thorium/proprietary_vendor_xiaomi_oxygen",
+    "target_path"  : "vendor/xiaomi/oxygen",
+    "branch"       : "a11/master"
   },
   {
     "remote"       : "github",
-    "repository"   : "GhostMaster69-Dev/android_kernel_xiaomi_vince",
-    "target_path"  : "kernel/xiaomi/vince",
-    "branch"       : "stable"
+    "repository"   : "Mi-Thorium/proprietary_vendor_xiaomi_mithorium-common",
+    "target_path"  : "vendor/xiaomi/mithorium-common",
+    "branch"       : "a12/master"
   },
   {
-    "remote"       : "gitlab",
-    "repository"   : "rayrzy/rzyTC-clang",
-    "target_path"  : "prebuilts/clang/host/linux-x86/clang-rzyTC",
-    "clone-depth"  : "1",
-    "branch"       : "main"
-  }
+    "remote"       : "github",
+    "repository"   : "Sanek-creed/oxygen",
+    "target_path"  : "kernel/xiaomi/oxygen",
+    "branch"       : "oxygen/a12/master"
+  },
+  {
+    "remote"       : "github",
+    "repository"   : "Sanek-creed/android_device_xiaomi_mithorium-common",
+    "target_path"  : "device/xiaomi/mithorium-common",
+    "branch"       : "a12/master"
+  },
 ]
